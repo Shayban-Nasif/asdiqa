@@ -120,7 +120,105 @@ function App() {
           </div>
         </div>
       </section>
+      {/* About Us / Company Information */}
+<section className="py-20 px-6 bg-white border-t">
+  <div className="max-w-5xl mx-auto">
 
+    <h3 className="text-3xl font-bold mb-10 text-center">
+      About Us / 会社概要
+    </h3>
+
+    <div className="overflow-hidden border rounded-lg">
+      <table className="w-full text-left border-collapse text-sm md:text-base">
+        <tbody>
+
+          <tr className="border-b">
+            <th className="w-1/3 bg-slate-100 px-6 py-4 font-medium">
+              会社名
+            </th>
+            <td className="px-6 py-4">
+              アスディカ―株式会社
+            </td>
+          </tr>
+
+          <tr className="border-b">
+            <th className="bg-slate-100 px-6 py-4 font-medium">
+              代表者
+            </th>
+            <td className="px-6 py-4">
+              フセイン・モハメドザキル
+            </td>
+          </tr>
+
+          <tr className="border-b">
+            <th className="bg-slate-100 px-6 py-4 font-medium">
+              所在地
+            </th>
+            <td className="px-6 py-4">
+              東京都葛飾区お花茶屋二丁目2-20-107号
+            </td>
+          </tr>
+
+          <tr className="border-b">
+            <th className="bg-slate-100 px-6 py-4 font-medium">
+              設立日
+            </th>
+            <td className="px-6 py-4">
+              令和7年9月29日
+            </td>
+          </tr>
+
+          <tr className="border-b">
+            <th className="bg-slate-100 px-6 py-4 font-medium">
+              会社法人等番号
+            </th>
+            <td className="px-6 py-4">
+              0118-01-046844
+            </td>
+          </tr>
+
+          <tr className="border-b align-top">
+            <th className="bg-slate-100 px-6 py-4 font-medium">
+              事業内容
+            </th>
+            <td className="px-6 py-4 space-y-1">
+              <div>・ITビジネスコンサルティング</div>
+              <div>・システム開発支援</div>
+              <div>・パソコン・電子機器の仕入れ・販売</div>
+              <div>・スパイス・食品等の小規模物販</div>
+            </td>
+          </tr>
+
+          <tr className="border-b">
+            <th className="bg-slate-100 px-6 py-4 font-medium">
+              ウェブサイト
+            </th>
+            <td className="px-6 py-4">
+              <a
+                href="https://www.asdiqa.jp"
+                target="_blank"
+                className="text-blue-600 underline"
+              >
+                www.asdiqa.jp
+              </a>
+            </td>
+          </tr>
+
+          <tr>
+            <th className="bg-slate-100 px-6 py-4 font-medium">
+              担当者
+            </th>
+            <td className="px-6 py-4">
+              シャイバン・ナシフ（Business Development Manager）
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</section>
       {/* Footer */}
       <footer className="bg-slate-100 py-8 text-center text-sm text-slate-500">
         © 2025 Asdiqa Co. Ltd. — Tokyo, Japan
