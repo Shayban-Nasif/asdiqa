@@ -66,7 +66,7 @@ function App() {
         </h2>
         <p className="text-xl text-slate-300 max-w-2xl mx-auto">
           Asdiqa Co. Ltd. is a multi-disciplinary holding company focused on
-          sustainable growth across automotive, technology, and service sectors.
+          sustainable growth across technology, automotive, and service sectors.
         </p>
       </section>
 
@@ -106,7 +106,7 @@ function App() {
             <div>
               <h4 className="text-3xl font-bold mb-2">Rising Sun Services</h4>
               <p className="text-slate-300 max-w-lg">
-                Our consumer-facing brand delivering premium services.
+                Our consumer-facing brand delivers premium services.
               </p>
             </div>
 
