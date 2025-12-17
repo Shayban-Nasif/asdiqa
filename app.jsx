@@ -79,10 +79,10 @@ function App() {
               <div className="p-3 bg-blue-50 text-blue-700 rounded-lg">
                 <GlobeIcon />
               </div>
-              <h4 className="text-xl font-bold">Global Trading</h4>
+              <h4 className="text-xl font-bold">Software Solutions</h4>
             </div>
             <p className="text-slate-600">
-              Export and import of automotive parts, electronics, and machinery.
+              Enterprise-level software architecture, homepage designing, and brand establishment support.
             </p>
           </div>
 
@@ -91,10 +91,10 @@ function App() {
               <div className="p-3 bg-blue-50 text-blue-700 rounded-lg">
                 <CpuIcon />
               </div>
-              <h4 className="text-xl font-bold">Software Solutions</h4>
+              <h4 className="text-xl font-bold">Global Trading</h4>
             </div>
             <p className="text-slate-600">
-              Enterprise-level software architecture and system integration.
+              Export and import of automotive parts, electronics, and machinery.
             </p>
           </div>
 
