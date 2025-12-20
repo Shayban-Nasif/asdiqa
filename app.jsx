@@ -99,27 +99,22 @@ function App() {
           </div>
 
           <div className="md:col-span-2 bg-slate-900 text-white p-10 rounded-xl flex flex-col md:flex-row justify-between items-center gap-8 relative overflow-hidden">
-            <div className="absolute right-0 top-0 opacity-10">
+            <div className="absolute right-0 top-0 opacity-10 pointer-events-none">
               <SunIcon />
-            </div>
-
-            <div>
-              <h4 className="text-3xl font-bold mb-2">Rising Sun Services</h4>
-              <p className="text-slate-300 max-w-lg">
-                Our consumer-facing brand delivers premium services.
-              </p>
             </div>
 
             <a
               href="https://risingsunservices.jp"
               target="_blank"
-              className="px-6 py-3 bg-white text-slate-900 font-bold rounded-lg flex items-center gap-2"
+              rel="noopener noreferrer"
+              className="relative z-10 px-6 py-3 bg-white text-slate-900 font-bold rounded-lg flex items-center gap-2"
             >
               Visit Website <ArrowRightIcon />
             </a>
           </div>
         </div>
       </section>
+      
       {/* About Us / Company Information */}
 <section className="py-20 px-6 bg-white border-t">
   <div className="max-w-5xl mx-auto">
@@ -219,6 +214,7 @@ function App() {
 
   </div>
 </section>
+      
       {/* Footer */}
       <footer className="bg-slate-100 py-8 text-center text-sm text-slate-500">
         © 2025 Asdiqa Co. Ltd. — Tokyo, Japan
