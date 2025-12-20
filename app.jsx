@@ -102,7 +102,14 @@ function App() {
             <div className="absolute right-0 top-0 opacity-10 pointer-events-none">
               <SunIcon />
             </div>
-
+            
+            <div>
+              <h4 className="text-3xl font-bold mb-2">Rising Sun Services</h4>
+              <p className="text-slate-300 max-w-lg">
+                Our consumer-facing brand delivers premium services.
+              </p>
+            </div>
+            
             <a
               href="https://risingsunservices.jp"
               target="_blank"
